@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: gold-family-tours
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: EMAIL_USER
+        value: manuelfurtado44@gmail.com
+      - key: EMAIL_PASSWORD
+        value: gehgbcezhmnnjpihs
+      - key: NODE_ENV
+        value: production

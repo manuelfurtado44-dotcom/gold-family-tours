@@ -253,16 +253,16 @@ function App() {
 
   const getDestinationImage = (key) => {
     const images = {
-      lisbon: '/sintra.jpg',
+      lisbon: '/lisboa.jpg',
       sintra: '/sintra.jpg',
-      cascais: '/sintra.jpg',
+      cascais: '/cascais.jpg',
       fatima: '/fatima.jpg',
-      obidos: '/nazare.jpg',
+      obidos: '/obidos.jpg',
       nazare: '/nazare.jpg',
-      porto: '/sintra.jpg',
-      coimbra: '/fatima.jpg',
-      evora: '/nazare.jpg',
-      santiago: '/fatima.jpg'
+      porto: '/porto.jpg',
+      coimbra: '/coimbra.jpg',
+      evora: '/evora.jpg',
+      santiago: '/santiago.jpg'
     };
     return images[key] || '/sintra.jpg';
   };
